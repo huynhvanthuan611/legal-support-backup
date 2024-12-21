@@ -1,0 +1,20 @@
+.Loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Loading img {
+  width: max-content;
+  height: max-content;
+  animation: spin 2s linear infinite; // Add a spinning animation
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
