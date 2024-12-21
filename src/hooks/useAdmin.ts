@@ -3,7 +3,7 @@ import { useAppSelector } from "contexts/hooks";
 import RoleService from "server/role";
 
 const useAdmin = () => {
-  const [isAdmin, setIsAdmin] = useState(false);
+  const [isAdmin, setIsAdmin] = useState(false); 
   const uid = useAppSelector((state) => state.user.data?.uid);
     console.log("uid", uid);
     
